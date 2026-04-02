@@ -1,0 +1,11 @@
+# Laravel (future-proofing)
+vendor/
+node_modules/
+.env
+
+# Composer local files (your setup)
+composer.phar
+composer
+
+# OS files
+.DS_Store
