@@ -1,0 +1,97 @@
+.
+├── backend
+│   ├── app
+│   │   ├── Http
+│   │   ├── Models
+│   │   └── Providers
+│   ├── artisan
+│   ├── bootstrap
+│   │   ├── app.php
+│   │   ├── cache
+│   │   └── providers.php
+│   ├── composer.json
+│   ├── composer.lock
+│   ├── config
+│   │   ├── app.php
+│   │   ├── auth.php
+│   │   ├── cache.php
+│   │   ├── database.php
+│   │   ├── filesystems.php
+│   │   ├── logging.php
+│   │   ├── mail.php
+│   │   ├── queue.php
+│   │   ├── services.php
+│   │   └── session.php
+│   ├── database
+│   │   ├── database.sqlite
+│   │   ├── factories
+│   │   ├── migrations
+│   │   └── seeders
+│   ├── package.json
+│   ├── phpunit.xml
+│   ├── public
+│   │   ├── favicon.ico
+│   │   ├── index.php
+│   │   └── robots.txt
+│   ├── README.md
+│   ├── resources
+│   │   ├── css
+│   │   ├── js
+│   │   └── views
+│   ├── routes
+│   │   ├── console.php
+│   │   └── web.php
+│   ├── storage
+│   │   ├── app
+│   │   ├── framework
+│   │   └── logs
+│   ├── tests
+│   │   ├── Feature
+│   │   ├── TestCase.php
+│   │   └── Unit
+│   ├── vendor
+│   │   ├── autoload.php
+│   │   ├── bin
+│   │   ├── brick
+│   │   ├── carbonphp
+│   │   ├── composer
+│   │   ├── dflydev
+│   │   ├── doctrine
+│   │   ├── dragonmantank
+│   │   ├── egulias
+│   │   ├── fakerphp
+│   │   ├── filp
+│   │   ├── fruitcake
+│   │   ├── graham-campbell
+│   │   ├── guzzlehttp
+│   │   ├── hamcrest
+│   │   ├── laravel
+│   │   ├── league
+│   │   ├── mockery
+│   │   ├── monolog
+│   │   ├── myclabs
+│   │   ├── nesbot
+│   │   ├── nette
+│   │   ├── nikic
+│   │   ├── nunomaduro
+│   │   ├── phar-io
+│   │   ├── phpoption
+│   │   ├── phpunit
+│   │   ├── psr
+│   │   ├── psy
+│   │   ├── ralouphie
+│   │   ├── ramsey
+│   │   ├── sebastian
+│   │   ├── staabm
+│   │   ├── symfony
+│   │   ├── theseer
+│   │   ├── tijsverkoyen
+│   │   ├── vlucas
+│   │   └── voku
+│   └── vite.config.js
+├── composer
+├── composer.phar
+├── read.txt
+└── README.md
+
+64 directories, 31 files
