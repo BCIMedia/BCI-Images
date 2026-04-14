@@ -9,3 +9,9 @@ composer
 
 # OS files
 .DS_Store
+
+# Laravel
+backend/vendor/
+backend/node_modules/
+backend/.env
+
