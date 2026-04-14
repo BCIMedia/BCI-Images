@@ -8,16 +8,17 @@ use Illuminate\Support\Facades\Hash;
 
 class AdminUserSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        User::create([
-            'name' => 'Bci Admin',
-            'email' => 'webDevAdmin@bcimedia.com',
-            'password' => Hash::make('bciadminpassword123!'),
-            'role' => 'admin',
-        ]);
+        User::updateOrCreate(
+            [
+                'email' => env('ADMIN_EMAIL'),
+            ],
+            [
+                'name' => env('ADMIN_NAME', 'BCI Admin'),
+                'password' => Hash::make(env('ADMIN_PASSWORD')),
+                'role' => 'admin',
+            ]
+        );
     }
 }
