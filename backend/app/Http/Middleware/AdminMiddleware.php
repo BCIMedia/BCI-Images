@@ -13,10 +13,12 @@ class AdminMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (! auth()->check()) {
+        // Must be logged in first
+        if (!auth()->check()) {
             return redirect('/login');
         }
 
+        // Must be admin
         if (auth()->user()->role !== 'admin') {
             abort(403, 'You do not have permission to access this page.');
         }
